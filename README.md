@@ -1,13 +1,13 @@
-# CSV 列数据整理导出
+# PasteFlow｜科研数据粘贴与导出工具
 
-**粘贴列 → 预览 → 导出干净表格**（面向 Origin / Excel / Python / MATLAB）
+**粘贴数据 → 预览整理 → 导出表格**（面向 Origin / Excel / Python / MATLAB）
 
-轻量 Windows 工具：把仪器软件、Origin、Excel 与脚本之间的剪贴板表格整理成矩形表，少动手改分隔符。
+PasteFlow 是一款轻量 Windows 工具：把仪器软件、Origin、Excel 与脚本之间的剪贴板数据整理成规整表格，再导出为适合目标软件的格式。
 
-English summary: paste scientific columns from the clipboard, preview a rectangular table, and export CSV / TXT / TSV with presets for Excel, Origin, pandas, MATLAB, or legacy GBK instruments.
+English summary: PasteFlow turns pasted scientific data into clean tables and exports CSV / TXT / TSV with presets for Excel, Origin, pandas, MATLAB, or legacy GBK instruments.
 
 <p align="center">
-  <img src="assets/readme/hero.svg" width="100%" alt="CSV Paste Exporter: paste scientific columns, preview, export clean tables.">
+  <img src="assets/readme/hero.svg" width="100%" alt="PasteFlow: paste scientific data, preview, and export clean tables.">
 </p>
 
 ```text
@@ -42,7 +42,7 @@ English summary: paste scientific columns from the clipboard, preview a rectangu
 
 ## 下载
 
-**[Latest Release](https://github.com/D-sudoasd/csv-paste-exporter/releases/latest)** — Windows EXE，无需安装 Python。带标签的安装包可能落后于 `main`；要当前 GUI / 预设 / 图表，请用下方源码运行。
+**[Latest Release](https://github.com/D-sudoasd/PasteFlow/releases/latest)** — Windows EXE，无需安装 Python。带标签的安装包可能落后于 `main`；要当前 GUI / 预设 / 图表，请用下方源码运行。
 
 ## 使用 GUI
 
