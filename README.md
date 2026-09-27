@@ -1,14 +1,48 @@
-# PasteFlow｜科研数据粘贴与导出工具
+<p align="center">
+  <img src="assets/readme/hero.png" width="100%" alt="PasteFlow — Clean clipboard tables and export them for your next tool / 整理剪贴板表格并导出到后续软件. Conceptual illustration / 概念插图。">
+</p>
+
+# PasteFlow
+
+**Clean clipboard tables and export them for your next tool**
+
+**整理剪贴板表格并导出到后续软件**
+
+[Overview / 项目概览](#overview--项目概览) · [Start / 开始使用](#start--开始使用) · [Reference / 详细说明](#reference--详细说明)
+
+## Overview / 项目概览
+
+Turn copied columns into a consistent table. Review delimiters, headers and column order, then export CSV, TXT or TSV with the encoding required by your workflow.
+
+将复制的列数据整理为规则表格，检查分隔符、表头和列顺序，再按后续流程所需编码导出 CSV、TXT 或 TSV。
+
+- **Preserve source text** — 保留表头、单位、科学计数法与原始文本。
+- **Arrange columns** — 删除或调整列顺序，并可恢复原始解析结果。
+- **Export presets** — 提供 Excel、Origin、pandas、MATLAB 和 GBK 预设。
+
+## Start / 开始使用
+
+Run with Python and Tkinter / 使用 Python 与 Tkinter 启动：
+
+```powershell
+py csv_paste_exporter.py
+```
+
+[Windows downloads / Windows 下载](https://github.com/D-sudoasd/PasteFlow/releases/latest)
+
+The first row is data unless the header option is enabled. The preview helps check table organization; it does not perform scientific fitting.
+
+默认第一行为数据，启用表头选项后才作为表头；预览用于检查表格整理结果。
+
+*Cover: AI-generated conceptual illustration. 封面为 AI 生成的概念插图。*
+
+## Reference / 详细说明
 
 **粘贴数据 → 预览整理 → 导出表格**（面向 Origin / Excel / Python / MATLAB）
 
 PasteFlow 是一款轻量 Windows 工具：把仪器软件、Origin、Excel 与脚本之间的剪贴板数据整理成规整表格，再导出为适合目标软件的格式。
 
 English summary: PasteFlow turns pasted scientific data into clean tables and exports CSV / TXT / TSV with presets for Excel, Origin, pandas, MATLAB, or legacy GBK instruments.
-
-<p align="center">
-  <img src="assets/readme/hero.svg" width="100%" alt="PasteFlow: paste scientific data, preview, and export clean tables.">
-</p>
 
 ```text
 复制列  →  粘贴  →  预览  →  导出
