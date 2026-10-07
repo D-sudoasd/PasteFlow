@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/readme/hero.png" width="100%" alt="PasteFlow — Clean clipboard tables and export them for your next tool / 整理剪贴板表格并导出到后续软件. Conceptual illustration / 概念插图。">
+</p>
+
 # PasteFlow
 
 **把复制来的列数据整理成规则表格，再导出给 Origin、Excel、Python 或 MATLAB。**
@@ -8,13 +12,12 @@ PasteFlow is a local Tkinter desktop tool for parsing clipboard tables, checking
 
 [![MIT](https://img.shields.io/badge/License-MIT-196B63)](LICENSE)
 
-```mermaid
-flowchart TD
-  A[复制列数据] --> B[粘贴并解析]
-  B --> C[核对表头与列顺序]
-  C --> D[选择目标软件预设]
-  D --> E[导出 CSV / TXT / TSV]
-```
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/readme/diagrams/workflow-readme-md-1-mobile.svg">
+  <img src="assets/readme/diagrams/workflow-readme-md-1.svg" width="100%" alt="PasteFlow — workflow schematic / 流程示意图">
+</picture>
+
+<sub>[Editable diagram source / 可编辑图源](assets/readme/diagrams/workflow-readme-md-1.mmd)</sub>
 
 **最短使用路径：** 下载并打开程序 → 粘贴 → 检查预览 → 导出。源码版在仓库目录运行 `py csv_paste_exporter.py`，运行时只依赖 Python 标准库与 Tkinter。
 
