@@ -23,6 +23,18 @@ PasteFlow is a local Tkinter desktop tool for parsing clipboard tables, checking
 
 例如，粘贴含 `2theta` 和 `intensity` 的两列表格，启用“第一行是表头”，即可保留这两个列名导出。第一行默认作为数据；是否启用表头由使用者决定。程序整理表格，不改变单位或进行拟合。
 
+## 原理示意 / Principle schematic
+
+<p align="center">
+  <img src="assets/readme/principle.png" width="100%" alt="参差剪贴板文本矩形化、表头选择与编码导出 — conceptual schematic / 概念示意图">
+</p>
+
+*概念示意：剪贴板列文本整理为矩形表格，参差行补空字段，表头需由使用者确认，导出格式与编码按后续软件选择；原始文本和单位保留，不进行拟合或换算。*
+
+*Conceptual schematic: clipboard columns become a rectangular table with blank padding for short rows; users choose header handling and export format/encoding. Original text and units are retained without fitting or unit conversion.*
+
+[查看完整示意图 / View full-size schematic](assets/readme/principle.png)
+
 ## 能力
 
 - 自动识别制表符、逗号、分号或空白分隔
